@@ -104,7 +104,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: #cf3a25;
+  background-color: #de5b49;
 }
 .navbar-custom .nav li.active a:hover {
   color: white;
@@ -252,23 +252,33 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
-.portfolio-section {
-  width: 100%;
-  padding: 50px 0;
-  color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+.portfolio-item {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
 }
-.download-section {
-  width: 100%;
-  padding: 50px 0;
-  color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+.portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+}
+.portfolio-item .portfolio-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+.portfolio-item .portfolio-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+}
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
 }
 #map {
   width: 100%;
@@ -305,6 +315,9 @@ section h3.section-subheading {
   outline: none;
   color: black;
   background-color: #de5b49;
+}
+.btn-sm {
+  margin: 10px 5px 0 5px;
 }
 ul.banner-social-buttons {
   margin-top: 0;
