@@ -1,12 +1,22 @@
 @import "variables.less";
 @import "mixins.less";
 
+// Global Components
+
 body {
     width: 100%;
     height: 100%;
-    font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
+    .body-font;
     color: black;
     background-color: white;
+}
+
+.text-primary {
+    color: @primary;
+}
+
+.text-muted {
+    color: @gray
 }
 
 html {
@@ -53,6 +63,16 @@ a {
 .light {
     font-weight: 400;
 }
+
+.bg-light-gray {
+    background-color: @gray-lighter;
+}
+
+.bg-darkest-gray {
+    background-color: @gray-darkest;
+}
+
+// Custom Navigation Bar
 
 .navbar-custom {
     margin-bottom: 0;
@@ -162,6 +182,8 @@ a {
     }
 }
 
+// Custom Circle Button
+
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -235,25 +257,69 @@ a {
     }
 }
 
-.content-section {
-    padding-top: 100px;
+// Global Section Styles
+
+section {
+    padding: 100px 0;
+    h2.section-heading {
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    h3.section-subheading {
+        font-size: 16px;
+        .serif-font;
+        text-transform: none;
+        font-style: italic;
+        font-weight: 400;
+        margin-bottom: 75px;
+    }
 }
 
-.download-section {
+@media(min-width:768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+
+// Hello Section
+
+.hello-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+
+// Portfolio Section
+
+.portfolio-section {
     width: 100%;
     padding: 50px 0;
     color: black;
-    background-color: #f1f1f1;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+// Resume Section
+
+.download-section {
+    width: 100%;
+    padding: 50px 0;
+    color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+// Contact Section
+
+// Custom Map
+
 #map {
     width: 100%;
     height: 200px;
-    margin-top: 100px;
 }
 
 @media(min-width:767px) {
@@ -267,9 +333,10 @@ a {
 
     #map {
         height: 400px;
-        margin-top: 250px;
     }
 }
+
+// Restyled Primary Buttons
 
 .btn {
     text-transform: uppercase;
@@ -294,6 +361,8 @@ a {
     }
 }
 
+// Social Buttons
+
 ul.banner-social-buttons {
     margin-top: 0;
     @media(max-width:1199px) {
@@ -311,6 +380,8 @@ ul.banner-social-buttons {
     }
 }
 
+// Footer
+
 footer {
     padding: 50px 0;
     p {
@@ -318,16 +389,16 @@ footer {
     }
 }
 
+// Highlight Color Customization
+
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: fade(white, 20%);
+    background: fade(@primary, 20%);
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: fade(white, 20%);
+    background: fade(@primary, 20%);
 }
 
 img::selection {
@@ -339,5 +410,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: fade(white, 20%);
+    webkit-tap-highlight-color: fade(@primary, 20%);
 }
