@@ -99,7 +99,7 @@ a {
             &.active {
                 outline: none;
                 a {
-                    background-color: fade(white, 30%);
+                    background-color: darken(@primary, 10%);
                     &:hover {
                         color: white;
                     }
@@ -108,7 +108,7 @@ a {
         }
     }
     @media(min-width:768px) {
-        padding: 20px 0;
+        padding: 15px 0;
         border-bottom: none;
         letter-spacing: 1px;
         background: @gray-darkest;
@@ -144,6 +144,7 @@ a {
         }
         .intro-text {
             font-size: 18px;
+            font-style: italic;
         }
     }
     @media(min-width:768px) {
@@ -151,10 +152,11 @@ a {
         padding: 0;
         .intro-body {
             .brand-heading {
-                font-size: 100px;
+                font-size: 60px;
             }
             .intro-text {
                 font-size: 26px;
+                font-style: italic;
             }
         }
     }
