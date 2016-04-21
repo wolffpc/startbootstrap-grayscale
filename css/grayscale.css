@@ -256,7 +256,7 @@ section h3.section-subheading {
   display: block;
   position: relative;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 0 auto 15px;
 }
 .portfolio-item .portfolio-caption {
   max-width: 400px;
