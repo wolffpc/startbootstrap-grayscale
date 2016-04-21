@@ -1,0 +1,182 @@
+body{
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	font-size: 11pt;
+	font-family: Tahoma, Verdana, sans-serif;
+	color: white;
+}
+
+h1{
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+h2{
+	font-weight: normal;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+h3{
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #4D4D4F;
+	font-size: 10pt;
+}
+
+.orangeColor{
+	color: orange;
+}
+
+.grayColor{
+	color: gray;
+}
+
+#headerContent{
+	width: 80%;
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.headerName{
+	font-size: 20pt;
+	letter-spacing: 4px;
+	margin-right: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+}
+
+.headerTitle{
+	font-size: 20pt;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+
+#mainContent{
+	width: 80%;
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+.slideShow{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100% !important;
+	max-width: 968px;
+	max-height: 355px;
+}
+
+.slideShow img {
+}
+
+#siteNavigation{
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #4D4D4F;
+	text-align: right;
+	padding-right: 100px;
+}
+
+a:link{
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	text-decoration: none;
+	color: white;
+
+}
+
+a:hover{
+	text-decoration: none;
+	color: gray;
+}
+
+a:active{
+	text-decoration: none;
+	color: #4D4D4F;
+}
+
+#contactInfo{
+	float: right;
+	width: 25%;
+	padding-top: 20px;
+}
+
+.contactText{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#infoSection{
+	float: left;
+	width: 65%;
+	margin-bottom: 10px;
+}
+
+.infoParagraph{
+	margin-bottom: 40px;
+}
+
+#qcafeSection{
+	width: 65%;
+	margin-bottom: 50px;
+}
+
+#updateSection{
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: #4D4D4F;
+}
+
+#stayUpdatedSection{
+	float: left;
+	width: 65%;
+	margin-bottom: 50px;
+}
+
+#socialSection{
+	float: right;
+	padding-top: 20px;
+	width: 25%;
+}
+
+#followMe{
+	float: left;
+	width: 65%;
+}
+
+#socialSites{
+	float: right;
+	width: 30%;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+}
+
+.thumbs{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+
+#copyrightContent{
+	clear: both;
+	text-align: center;
+	opacity: 0.25;
+}
+
+.hidden {display: none}

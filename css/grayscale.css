@@ -264,6 +264,9 @@ section h3.section-subheading {
   background-color: white;
   text-align: center;
   padding: 25px;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-color: #222222;
 }
 .portfolio-item .portfolio-caption h4 {
   text-transform: none;
