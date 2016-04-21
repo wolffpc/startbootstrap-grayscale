@@ -1,5 +1,11 @@
 # Peter Wolff - Portfolio Site
 
+##About
+
+This is a portfolio website that I setup for myself to be included or linked on my social media profiles and resume. I strove to keep the changes I made to the original template documented and even added comments where I thought appropriate to the original code.
+
+If you have any issues please feel free to contact me or create an issue here. Thanks!
+
 ##Credits
 
 Peter Wolff modified the original Grayscale template.
