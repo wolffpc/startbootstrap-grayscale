@@ -39,7 +39,7 @@ var map = null;
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
 google.maps.event.addDomListener(window, 'resize', function() {
-    map.setCenter(new google.maps.LatLng(47.6062, -122.3321));
+    map.setCenter(new google.maps.LatLng(45.5423657, -122.9345683));
 });
 
 function init() {
@@ -50,7 +50,7 @@ function init() {
         zoom: 12,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(47.6062, -122.3321), // New York
+        center: new google.maps.LatLng(45.5423657, -122.9345683), // New York
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
